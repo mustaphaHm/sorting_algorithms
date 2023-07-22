@@ -28,5 +28,6 @@ void insertion_sort_list(listint_t **list)
 			curr->next = tmp;
 			print_list(*list);
 		}
+		next = curr->next;
 	}
 }
